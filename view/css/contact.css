@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+html{
+    font-size: 17px;
+}
+body{
+    box-sizing: border-box;
+}
+#contact{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+#contact .input-text{
+    width: 60%;
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid rgba(21, 90, 147, 0.533);
+}
+#contact .input-text input{
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+}
+#contact .input-text input::placeholder{
+    font-size: 16px;
+    color: rgb(185, 185, 185);
+}
